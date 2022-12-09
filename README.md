@@ -8,23 +8,23 @@ A command line tool unpack/repack oppo/realme/oneplus splash image
 libzstd-devel
 
 # BUILD
-make
+$ make
 
-## As python library
+## Build Python
 Coming Soon..
 
-## Usage
-### Unpack oppo splash image    
-``` sh
-./splishsplash unpack -i splash.img -o pic
-```
+### Usage
+## Decode image pack
++++
+./splishsplash unpack -i LOGO.img -o pic
++++
     
-### Repack oppo splash image
-``` sh
-./splishsplash repack -i splash.img -o new-splash.img
-```
+## Repack and encode binary image
++++
+./splishsplash repack -i LOGO.img -o new_LOGO.img
++++
 
-### Only read image info
-``` sh
-./splishsplash readinfo -i splash.img
-```
+## Read image info
++++
+./splishsplash readinfo -i LOGO.img
++++
